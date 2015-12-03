@@ -9,5 +9,5 @@ ActiveRecord::Base.establish_connection(
 #basic template routes
 get '/' do
   #return some resource
-  return {:hello => 'world'}.json
+  return {:hello => 'world'}.to_json
 end
